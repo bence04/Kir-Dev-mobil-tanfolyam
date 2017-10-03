@@ -37,9 +37,7 @@ Utána a megfelelő fájlokhoz adjuk hozzá az [ionic storage-ot](http://ionicfr
 #### Amikról még szó volt a tanfolyamon
 * Input mezőkbe írt adatok mentése változóba
 * Gombra kattintva, változók mentése local storage-be
-* Input mezőbe írt adatok összehasonlítása/ellenőrzése
-* Új page megnyitása gombra kattintással
-* HTML *ngFor és *ngIf bemutatása
+* Input mezőbe írt adatok összehasonlítása
 
 
 ### Harmadik alkalom
