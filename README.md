@@ -10,10 +10,10 @@ $ ionic serve
 ```
 ### Első alkalom
 Legfrissebb NodeJS letöltése 
-<img src="http://calebmadrigal.com/images/nodejs-logo.png" width="200"><br>
+<img src="http://calebmadrigal.com/images/nodejs-logo.png" width="200">
 Ionic telepítése
-[Ionic install](https://ionicframework.com/getting-started/)<br>
-Ismerkedés a project felépítésével (src/app mappa, src/pages mappa, html, scss, ts fájlok)<br>
+[Ionic install](https://ionicframework.com/getting-started/)
+Ismerkedés a project felépítésével (src/app mappa, src/pages mappa, html, scss, ts fájlok)
 Ismerkedés az Ionic [dokumentációjával](https://ionicframework.com/docs/)<br>
 ##### Egyéb dolgok amikről szó volt a tanfolyamon
 * (click) event
@@ -23,6 +23,17 @@ Ismerkedés az Ionic [dokumentációjával](https://ionicframework.com/docs/)<br
 * Toast message
 
 ### Második alkalom
+Üres project indítása
+```sh
+$ ionic start masodik blank
+$ cd masodik
+$ ionic cordova plugin add cordova-sqlite-storage
+$ ionic serve
+```
+
+Utána a megfelelő fájlokhoz adjuk hozzá az [ionic storage-ot](http://ionicframework.com/docs/storage/)
+
+
 
 ### Harmadik alkalom
 
