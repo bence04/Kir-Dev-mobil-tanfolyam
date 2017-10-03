@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Szöveg</ion-label>
+        <ion-input type="text" [(ngModel)]="popupText"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <button ion-button block (click)="Fuggveny()">{{gombSzoveg}}</button>
+  </ion-content>
+  

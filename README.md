@@ -21,7 +21,7 @@ Ismerkedés az Ionic [dokumentációjával](https://ionicframework.com/docs/)<br
 * Változók megjelenítése HTML-ben
 * Two-way databinding bemutatása
 * Toast message
-* Új tab oldal létrehozása
+* Új oldal létrehozása
 
 ### Második alkalom
 Üres project indítása
