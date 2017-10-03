@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list *ngFor="let category of movies">
+    <ion-list-header>
+      {{ category.category }}
+    </ion-list-header>
+    <ion-item *ngFor="let movie of category.movies">{{ movie }}</ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Felhasználónév</ion-label>
+      <ion-input type="text" [(ngModel)]="userName"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Jelszó</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Jelszó újra</ion-label>
+      <ion-input type="password" [(ngModel)]="rePassword"></ion-input>
+    </ion-item>
+
+  </ion-list>
+  <button ion-button block (click)="registration()">Regisztrálok</button>
+
+  <br><br>
+  <div *ngIf="isError">
+    Valami hibás!
+  </div>
+  <br><br>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Felhasználónév</ion-label>
+      <ion-input type="text" [(ngModel)]="loginUserName"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Jelszó</ion-label>
+      <ion-input type="password" [(ngModel)]="loginPassword"></ion-input>
+    </ion-item>
+
+  </ion-list>
+  <button ion-button block (click)="login()">Belépés</button>
+
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "tanfolyam2",
+  "app_id": "9cec2037",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
