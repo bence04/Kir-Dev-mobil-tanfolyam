@@ -1,8 +1,8 @@
 # MAD tanfolyam
 MAD Tanfolyamon elkészített feladatok kódjai<br>Jelenleg aktuális: 2017/18/1
 <br>
-#### Kezdő lépések
-Töltsd le a saját gépedre a megfelelő tanfolyam alaklmat vagy az egész repo-t
+### Kezdő lépések minden tanfolyamX mappában
+Töltsd le a saját gépedre a megfelelő tanfolyam alakalmat vagy az egész repo-t
 ```sh
 $ cd <tanfolyam alkalom>
 $ npm install
