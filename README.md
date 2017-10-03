@@ -14,7 +14,7 @@ Legfrissebb NodeJS letöltése <br>
 Ionic telepítése<br>
 [Ionic install](https://ionicframework.com/getting-started/)<br>
 Ismerkedés a project felépítésével (src/app mappa, src/pages mappa, html, scss, ts fájlok)<br>
-Ismerkedés az Ionic [dokumentációjával]<br>(https://ionicframework.com/docs/)<br>
+Ismerkedés az Ionic [dokumentációjával](https://ionicframework.com/docs/)<br>
 ##### Egyéb dolgok amikről szó volt a tanfolyamon
 * (click) event
 * Felugró ablak
