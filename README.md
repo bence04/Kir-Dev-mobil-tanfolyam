@@ -44,6 +44,12 @@ Utána a megfelelő fájlokhoz adjuk hozzá az [ionic storage-ot](http://ionicfr
 
 ### Harmadik alkalom
 
+#### Amikról még szó volt a tanfolyamon
+* Mi az az API, mire jó
+* API kezelés angularban
+* get/post közötti különbség
+* Következő alkalom menetének és a vizsga menetének ismertetése
+
 ### Negyedik alkalom
 
 ### Vizsga Információk
