@@ -53,3 +53,5 @@ Utána a megfelelő fájlokhoz adjuk hozzá az [ionic storage-ot](http://ionicfr
 ### Negyedik alkalom
 
 ### Vizsga Információk
+
+A vizsga információk elérhetőek a [vizsga](https://github.com/bence04/MAD-tanfolyam/tree/master/vizsga) mappában.
