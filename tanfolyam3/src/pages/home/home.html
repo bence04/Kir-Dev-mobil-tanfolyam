@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngFor="let subject of apiResult">
+    {{ subject.name }}
+    <div *ngFor="let mark of subject.marks">
+      {{ mark }}
+    </div>
+  </div>
+</ion-content>
